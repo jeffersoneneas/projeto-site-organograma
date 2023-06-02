@@ -28,18 +28,18 @@ const Formulario = (props) => {
     return (
         <section className="formulario">
             <form onSubmit={aoSalvar}>
-                <h2>Preencha os dados para criar o card do colaborador</h2>
+                <h2>Preencha os dados para criar o card do filme</h2>
                 <CampoTexto
                     obrigatorio={true}
-                    label="Nome"
-                    placeholder="Digite seu nome"
+                    label="Nome do filme"
+                    placeholder="Digite o nome do filme"
                     valor={nome}
                     aoAlterado={valor => setNome(valor)}
                 />
                 <CampoTexto
                     obrigatorio={true}
                     label="Ano do Filme"
-                    placeholder="Digite o Ano do Filme"
+                    placeholder="Digite o Ano do filme"
                     valor={cargo}
                     aoAlterado={valor => setCargo(valor)}
                 />
