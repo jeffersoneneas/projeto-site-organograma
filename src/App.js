@@ -6,6 +6,8 @@ import Rodape from './componentes/Rodape';
 
 function App() {
 
+  <>{document.title = "Oranograma de Filmes"}</>
+
   const times = [
     {
       nome: 'Ação',
@@ -49,7 +51,7 @@ function App() {
   const aoNovoColaboradorAdicionado = (colaborador) => {
     setColaboradores([...colaboradores, colaborador])
   }
-  <>{document.title = "Oranograma de Filmes"}</>
+
   return (
     <div className="App">
       <Banner />
