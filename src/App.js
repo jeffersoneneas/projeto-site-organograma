@@ -49,7 +49,7 @@ function App() {
   const aoNovoColaboradorAdicionado = (colaborador) => {
     setColaboradores([...colaboradores, colaborador])
   }
-
+  <>{document.title = "Oranograma de Filmes"}</>
   return (
     <div className="App">
       <Banner />
