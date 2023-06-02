@@ -6,7 +6,7 @@ import Rodape from './componentes/Rodape';
 
 function App() {
 
-  <>{document.title = "Oranograma de Filmes"}</>
+  <>{document.title = "Organograma de Filmes"}</>
 
   const times = [
     {
